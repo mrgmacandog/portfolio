@@ -1,0 +1,42 @@
+.jumbotron {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron > .container, #display {
+    height: 100%;
+}
+
+#display {
+    justify-content: center;
+}
+
+#display, h2 {
+    text-align: center;
+}
+
+.section {
+    padding-top: 25px;
+}
+
+.section-header {
+    margin-bottom: 25px;
+}
+
+#about, #contact {
+    background-color: #DDD;
+}
+
+#my-photo {
+    width: 50%;
+}
+
+.portfolio-image {
+    width: 100%;
+}
+
+.portfolio-info {
+    height: 100%;
+    display: none;
+}
