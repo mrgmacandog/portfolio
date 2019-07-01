@@ -48,13 +48,18 @@
     bottom: 0;
     left: 0;
     right: 0;
-    /* background: rgba(36, 62, 206, 0.6); */
+    background: rgba(255, 255, 255, 0.75);
     /* color: #fff; */
     visibility: hidden;
     opacity: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 
     /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;
@@ -75,5 +80,5 @@
 }
 
 .portfolio-item:hover .portfolio-image {
-    opacity: 0.25;
+    opacity: 0.5;
 }
