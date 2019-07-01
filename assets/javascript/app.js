@@ -56,9 +56,18 @@ $(document).ready(function () {
         checkScrollPos();
     });
 
-    // TODO change to click for mobile
+    /*
+    // TODO: change to click for mobile
+    // FIXME: Make all portfolio info disappear and portfolio images appear. Then switch "this" one
     // When a portfolio image is moused over
     $(".portfolio-image").on("mouseover", function () {
+        // Hide all portfolio infos
+        $(".portfolio-info").fadeOut(200, function () {
+            $(".portfolio-image").fadeIn(200);
+        });
+
+        // Show all portfolio images
+
         // Hide the image
         $(this).fadeOut(200, function () {
             // Show the information
@@ -69,7 +78,7 @@ $(document).ready(function () {
         // $(this).next().show();
     });
 
-    // TODO change to click for mobile
+    // TODO: change to click for mobile
     // When the information is moused out
     $(".portfolio-info").on("mouseleave", function () {
         // Hide the information
@@ -81,6 +90,7 @@ $(document).ready(function () {
         // $(this).hide();
         // $(this).prev().show();
     });
+    */
 
     // Check scroll position when the document is ready
     checkScrollPos();

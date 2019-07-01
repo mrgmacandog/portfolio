@@ -36,7 +36,44 @@
     width: 100%;
 }
 
+/* https://jsfiddle.net/govdqd8y/ */
+.portfolio-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.portfolio-info-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background: rgba(36, 62, 206, 0.6); */
+    /* color: #fff; */
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.portfolio-item:hover .portfolio-info-layer {
+    visibility: visible;
+    opacity: 1;
+}
+
 .portfolio-info {
-    height: 100%;
-    display: none;
+    transition: .2s;
+    transform: translateY(1em);
+}
+
+.portfolio-item:hover .portfolio-info {
+    transform: translateY(0);
+}
+
+.portfolio-item:hover .portfolio-image {
+    opacity: 0.25;
 }
