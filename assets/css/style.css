@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 .jumbotron {
     height: 100vh;
     padding: 0;
@@ -31,26 +35,6 @@
     padding-right: 10px;
 }
 
-#display, h2 {
-    text-align: center;
-}
-
-#about-title, #about {
-    background-color: #9EAEB3;
-}
-
-/* .section-title {
-    background-color: #EEEEE7;
-} */
-
-.section-title > h2 {
-    margin-bottom: 0;
-}
-
-/* .section {
-    background-color: rgb(238, 238, 231);
-} */
-
 .sticky-top {
     background-color: #242E35;
 }
@@ -72,8 +56,15 @@
     border-bottom: 3px solid #4A7B6F;
 }
 
-#my-photo {
-    width: 50%;
+#about {
+    background-color: #9EAEB3;
+    color: #EEEEE7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about h2 {
+    margin-bottom: 30px;
 }
 
 .portfolio-image {
