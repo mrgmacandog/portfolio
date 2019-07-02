@@ -2,6 +2,9 @@
     height: 100vh;
     padding: 0;
     margin: 0;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/99/SpaceNeedleQAHill.jpg);
+    background-size: cover;
+    background-position: center; 
 }
 
 .jumbotron > .container, #display {
@@ -10,6 +13,17 @@
 
 #display {
     justify-content: center;
+    color: #47423F;
+}
+
+#display > h1, #display > p {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #display, h2 {
