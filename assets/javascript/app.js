@@ -95,9 +95,9 @@ $(document).ready(function () {
     // Check scroll position when the document is ready
     checkScrollPos();
 
-    $(".portfolio-info").css("height", `${$(".portfolio-image").height()}px`);
-    $(window).resize(function () {
-        $(".portfolio-info").css("height", `${$(".portfolio-image").height()}px`);
-    });
+    // $(".portfolio-info").css("height", `${$(".portfolio-image").height()}px`);
+    // $(window).resize(function () {
+    //     $(".portfolio-info").css("height", `${$(".portfolio-image").height()}px`);
+    // });
 
 });
