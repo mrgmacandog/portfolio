@@ -146,6 +146,25 @@ body {
     color: #4A7B6F;
 }
 
+.form-group {
+    margin-bottom: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+#name-input {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#message-input {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 30px;
+}
+
 #submit-btn {
     color: #4A7B6F;
     background-color: #FFF;
@@ -170,7 +189,7 @@ body {
     border: none;
 }
 
-.fa-linkedin, .fa-github-square {
+.fa-paper-plane, .fa-linkedin, .fa-github-square {
     /* font-size: 20px; */
     /* padding-left: 5psx; */
     padding-right: 6px;
