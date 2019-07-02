@@ -2,9 +2,14 @@
     height: 100vh;
     padding: 0;
     margin: 0;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/99/SpaceNeedleQAHill.jpg);
+    background-image:
+        linear-gradient(
+            rgba(238, 238, 231, 0), 
+            rgba(36, 46, 53, 1)
+        ),
+        url(https://upload.wikimedia.org/wikipedia/commons/9/99/SpaceNeedleQAHill.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
 .jumbotron > .container, #display {
@@ -13,7 +18,7 @@
 
 #display {
     justify-content: center;
-    color: #47423F;
+    color: #242E35;
 }
 
 #display > h1, #display > p {
@@ -30,16 +35,41 @@
     text-align: center;
 }
 
-.section {
-    padding-top: 25px;
+#about-title, #about {
+    background-color: #9EAEB3;
 }
 
-.section-header {
-    margin-bottom: 25px;
+/* .section-title {
+    background-color: #EEEEE7;
+} */
+
+.section-title > h2 {
+    margin-bottom: 0;
 }
 
-#about, #contact {
-    background-color: #DDD;
+/* .section {
+    background-color: rgb(238, 238, 231);
+} */
+
+.sticky-top {
+    background-color: #242E35;
+}
+
+.navbar-brand, .navbar-brand:hover {
+    color: #EEEEE7;
+}
+
+.nav-item {
+    color: #EEEEE7;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+.active {
+    /* color: #4A7B6F; */
+    border-bottom: 3px solid #4A7B6F;
 }
 
 #my-photo {
